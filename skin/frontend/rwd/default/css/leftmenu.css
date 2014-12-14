@@ -1,0 +1,58 @@
+
+/**********************8Acordin************************/
+#accordion {
+    max-height: none;
+    margin:0px; width:285px;
+    overflow-y: hidden;/*	background: #cccccc; /* Old browsers *!/	*/
+
+
+
+
+}
+.firstpane {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:13px;
+    color:#585858;
+    text-align:left;
+    padding:0 0 0 0px;
+    text-indent:5px;
+}
+.firstpane ul {
+    margin:0px !important;
+    padding:0px 0 0 0px !important;
+}
+.firstpane ul li {
+    margin:0px;
+    padding:0px 0px 0px 0px;
+    display:block;
+}
+.firstpane ul li a {
+    color:#6d6d6d; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px;
+    text-decoration:none;
+}
+.firstpane ul li a:hover {
+    color:#6d6d6d;
+    text-decoration:none;
+}
+.firstpane ul li ul {
+    margin:0px;
+    padding:0px 0 5px 24px;
+    display:none;
+
+}
+.firstpane ul li ul li{margin-left: 20px !important;}
+.firstpane ul li ul li a {
+    color:#585858;
+    text-decoration:none;
+}
+.firstpane ul li ul li a:hover {
+    color:#000;
+    text-decoration:none;
+}
+
+
+.firstpane .title{ padding-left:32px; font-weight:bold; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px; border-bottom:0px solid #fff;}
+
+.leftbg {background:#e4e4e4; width:285px;}
+
+

@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Home_Mylayouts>
+      <version>0.1.0</version>
+    </Home_Mylayouts>
+  </modules>
+  <global>
+    <page>
+      <layouts>
+          <home translate="label">
+          <label>Home</label>
+          <template>page/home.phtml</template>
+          <layout_handle>home</layout_handle>
+          </home> translate="label">
+		<!--<category translate="label">
+          <label>Category</label>
+          <template>page/category.phtml</template>
+          <layout_handle>category</layout_handle>
+        </category>
+		<product translate="label">
+          <label>Product</label>
+          <template>page/product.phtml</template>
+          <layout_handle>product</layout_handle>
+        </product>
+		<staticpage translate="label">
+          <label>StaticPage</label>
+          <template>page/staticpage.phtml</template>
+          <layout_handle>StaticPage</layout_handle>
+        </staticpage>
+		<giftofys translate="label">
+          <label>GiftOfYS</label>
+          <template>page/giftofys.phtml</template>
+          <layout_handle>GiftOfYS</layout_handle>
+        </giftofys>
+        <namaskar translate="label">
+          <label>Namaskar</label>
+          <template>page/namaskar.phtml</template>
+          <layout_handle>Namaskar</layout_handle>
+        </namaskar>
+		<breathe translate="label">
+          <label>Breathe</label>
+          <template>page/breathe.phtml</template>
+          <layout_handle>Breathe</layout_handle>
+        </breathe>
+		<love translate="label">
+          <label>Love</label>
+          <template>page/love.phtml</template>
+          <layout_handle>Love</layout_handle>
+        </love>
+		<home1 translate="label">
+          <label>Home1</label>
+          <template>page/home1.phtml</template>
+          <layout_handle>home1</layout_handle>
+        </home1>
+        <women translate="label">
+          <label>Women</label>
+          <template>page/women.phtml</template>
+          <layout_handle>women</layout_handle>
+        </women>
+        <mens translate="label">
+          <label>Mens</label>
+          <template>page/mens.phtml</template>
+          <layout_handle>mens</layout_handle>
+        </mens> -->
+        <!-- add more layouts here -->
+      </layouts>
+    </page>
+  </global>
+</config>

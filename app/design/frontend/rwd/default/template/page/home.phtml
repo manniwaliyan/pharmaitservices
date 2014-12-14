@@ -1,0 +1,305 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magento.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magento.com for more information.
+ *
+ * @category    design
+ * @package     rwd_default
+ * @copyright   Copyright (c) 2006-2014 X.commerce, Inc. (http://www.magento.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+?>
+<?php
+/**
+ * Template for Mage_Page_Block_Html
+ */
+?>
+
+<!DOCTYPE html>
+
+<!--[if lt IE 7 ]> <html lang="<?php echo $this->getLang(); ?>" id="top" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="<?php echo $this->getLang(); ?>" id="top" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="<?php echo $this->getLang(); ?>" id="top" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="<?php echo $this->getLang(); ?>" id="top" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="<?php echo $this->getLang(); ?>" id="top" class="no-js"> <!--<![endif]-->
+
+<head>
+    <?php echo $this->getChildHtml('head') ?>
+</head>
+<body<?php echo $this->getBodyClass()?' class="'.$this->getBodyClass().'"':'' ?>>
+<?php echo $this->getChildHtml('after_body_start') ?>
+<div class="wrapper">
+    <?php echo $this->getChildHtml('global_notices') ?>
+    <div class="page">
+        <?php echo $this->getChildHtml('header') ?>
+        <div class="main-container col1-layout">
+            <div class="main">
+                <?php echo $this->getChildHtml('breadcrumbs') ?>
+                <div class="col-main">
+                    <?php echo $this->getChildHtml('global_messages') ?>
+                    <?php //echo $this->getChildHtml('content') ?>
+                    <div>
+                    <div id="main-t">&nbsp;</div>
+                    <div id="main-m">
+                    <div id="main-f">
+                    <div style="height: 276px;">
+                        <div id="baner-left"><img src="<?php echo $this->getSkinUrl("images/shipingbnner.jpg"); ?>" alt="" border="0" /></div>
+                        <a href="#"><img style="float: right;" src="<?php echo $this->getSkinUrl("images/webbanner.jpg"); ?>" alt="" border="0" /></a></div>
+                    <div style="height: 8px;">&nbsp;</div>
+                    <img style="float: left;" src="<?php echo $this->getSkinUrl("images/customer.jpg"); ?>" alt="" /> <a href="http://support.leopharmarx.com/livehelp/index.php"><img style="float: left;" src="<?php echo $this->getSkinUrl("images/support.png"); ?>" alt="" /></a> <a href="http://www.ringcentral.com/"><img style="float: left;" src="<?php echo $this->getSkinUrl("images/callback.png"); ?>" alt="" /></a>
+                    <div style="height: 8px; clear: both;">&nbsp;</div>
+                    <div id="main-content">
+                    <div id="side-navi">
+                        <div style="padding-bottom: 14px;">
+                            <div><img src="<?php echo $this->getSkinUrl("images/drugsheader.jpg"); ?>" alt="" /></div>
+                            <div id="side-navi-m">
+                                <div id="products">
+                                    <div class="leftboxmenucontent">
+                                        <div style="border: 1px solid #cbcbc9; width: 100%;">
+                                            <div id="accordion" class="ui-accordion ui-widget ui-helper-reset ui-accordion-icons">
+                                                <div class="firstpane ui-accordion-header ui-helper-reset ui-state-default ui-state-active ui-corner-top">
+                                                    <ul>
+                                                        <li>
+                                                            <div class="accd-head"><span class="title">Featured Product</span></div>
+                                                            <ul style="display: block;">
+                                                                <li><img src="<?php echo $this->getSkinUrl("images/bullet.jpg"); ?>" alt="" align="absmiddle" /><a href="<?php echo $this->getUrl('featured-product.html'); ?>">Generic Viagra</a></li>
+                                                                <li><img src="<?php echo $this->getSkinUrl("images/bullet.jpg"); ?>" alt="" align="absmiddle" /><a href="#">Generic Clomid</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li>
+                                                            <div class="accd-head"><span class="title">Mens Health</span></div>
+                                                            <ul style="display: none;">
+                                                                <li><img src="<?php echo $this->getSkinUrl("images/bullet.jpg"); ?>" alt="" align="absmiddle" /><a href="http://www.leopharmarx.com/buy-sildenafil-citrate-online.php">Sildenafil Citrate</a></li>
+                                                                <li><img src="<?php echo $this->getSkinUrl("images/bullet.jpg"); ?>" alt="" align="absmiddle" /><a href="http://www.leopharmarx.com/buy-aurogra-100mg-online.php">Aurogra</a></li>
+                                                                <li><img src="<?php echo $this->getSkinUrl("images/bullet.jpg"); ?>" alt="" align="absmiddle" /><a href="http://www.leopharmarx.com/buy-tadacip-online.php">Tadacip</a></li>
+                                                                <li><img src="<?php echo $this->getSkinUrl("images/bullet.jpg"); ?>" alt="" align="absmiddle" /><a href="http://www.leopharmarx.com/buy-avanafil-online.php">Avanafil</a></li>
+                                                                <li><img src="<?php echo $this->getSkinUrl("images/bullet.jpg"); ?>" alt="" align="absmiddle" /><a href="http://www.leopharmarx.com/buy-malegra-online.php">Malegra</a></li>
+                                                                <li><img src="<?php echo $this->getSkinUrl("images/bullet.jpg"); ?>" alt="" align="absmiddle" /><a href="http://www.leopharmarx.com/generic-viagra-online.php">Generic Viagra</a></li>
+                                                                <li><img src="<?php echo $this->getSkinUrl("images/bullet.jpg"); ?>" alt="" align="absmiddle" /><a href="#">Generic Viagra Soft Tabs</a></li>
+                                                                <li><img src="<?php echo $this->getSkinUrl("images/bullet.jpg"); ?>" alt="" align="absmiddle" /><a href="http://www.leopharmarx.com/buy-kamagra-online.php">Kamagra</a></li>
+                                                                <li><img src="<?php echo $this->getSkinUrl("images/bullet.jpg"); ?>" alt="" align="absmiddle" /><a href="http://www.leopharmarx.com/kamagra-oral-jelly.php">Kamagra Oral Jelly</a></li>
+                                                                <li><img src="<?php echo $this->getSkinUrl("images/bullet.jpg"); ?>" alt="" align="absmiddle" /><a href="#">Tadalis</a></li>
+                                                                <li><img src="<?php echo $this->getSkinUrl("images/bullet.jpg"); ?>" alt="" align="absmiddle" /><a href="#">Generic Levitra</a></li>
+                                                                <li><img src="<?php echo $this->getSkinUrl("images/bullet.jpg"); ?>" alt="" align="absmiddle" /><a href="#">Forzest</a></li>
+                                                                <li><img src="<?php echo $this->getSkinUrl("images/bullet.jpg"); ?>" alt="" align="absmiddle" /><a href="#">Caverta</a></li>
+                                                                <li><img src="<?php echo $this->getSkinUrl("images/bullet.jpg"); ?>" alt="" align="absmiddle" /><a href="#">Suhagra</a></li>
+                                                                <li><img src="<?php echo $this->getSkinUrl("images/bullet.jpg"); ?>" alt="" align="absmiddle" /><a href="http://www.leopharmarx.com/buy-super-p-force-online.php">Super P Force</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li>
+                                                            <div class="accd-head"><span class="title">Womens Health</span></div>
+                                                            <ul style="display: none;">
+                                                                <li><img src="<?php echo $this->getSkinUrl("images/bullet.jpg"); ?>" alt="" align="absmiddle" /><a href="#">Lovegra</a></li>
+                                                                <li><img src="<?php echo $this->getSkinUrl("images/bullet.jpg"); ?>" alt="" align="absmiddle" /><a href="#">Generic Clomid</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li>
+                                                            <div class="accd-head"><span class="title">Eye, Skin Care</span></div>
+                                                            <ul style="display: none;">
+                                                                <li><img src="<?php echo $this->getSkinUrl("images/bullet.jpg"); ?>" alt="" align="absmiddle" /><a href="http://www.leopharmarx.com/buy-bimatoprost-online.php">Bimatoprost</a></li>
+                                                                <li><img src="<?php echo $this->getSkinUrl("images/bullet.jpg"); ?>" alt="" align="absmiddle" /><a href="http://www.leopharmarx.com/buy-benoquin-online.php">Benoquin</a></li>
+                                                                <li><img src="<?php echo $this->getSkinUrl("images/bullet.jpg"); ?>" alt="" align="absmiddle" /><a href="http://www.leopharmarx.com/buy-generic-retin-a-cream.php">Generic Retin-A</a></li>
+                                                                <li><img src="<?php echo $this->getSkinUrl("images/bullet.jpg"); ?>" alt="" align="absmiddle" /><a href="#">Xylocaine</a></li>
+                                                                <li><img src="<?php echo $this->getSkinUrl("images/bullet.jpg"); ?>" alt="" align="absmiddle" /><a href="#">Generic Vaniqa (Eflornithine)</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li>
+                                                            <div class="accd-head"><span class="title">Cancer</span></div>
+                                                            <ul style="display: none;">
+                                                                <li><img src="<?php echo $this->getSkinUrl("images/bullet.jpg"); ?>" alt="" align="absmiddle" /><a href="#">Generic Arimidex</a></li>
+                                                                <li><img src="<?php echo $this->getSkinUrl("images/bullet.jpg"); ?>" alt="" align="absmiddle" /><a href="#">Generic Nolvadex</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li>
+                                                            <div class="accd-head"><span class="title">Anti Allergy</span></div>
+                                                            <ul style="display: none;">
+                                                                <li><img src="<?php echo $this->getSkinUrl("images/bullet.jpg"); ?>" alt="" align="absmiddle" /><a href="#">Generic Atarax</a></li>
+                                                                <li><img src="<?php echo $this->getSkinUrl("images/bullet.jpg"); ?>" alt="" align="absmiddle" /><a href="#">Generic Singulair</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li>
+                                                            <div class="accd-head"><span class="title">Antifungal</span></div>
+                                                            <ul style="display: none;">
+                                                                <li><img src="<?php echo $this->getSkinUrl("images/bullet.jpg"); ?>" alt="" align="absmiddle" /><a href="#">Generic Diflucan</a></li>
+                                                                <li><img src="<?php echo $this->getSkinUrl("images/bullet.jpg"); ?>" alt="" align="absmiddle" /><a href="#">Generic Lamisil</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li>
+                                                            <div class="accd-head"><span class="title">Weight Loss</span></div>
+                                                            <ul style="display: none;">
+                                                                <li><img src="<?php echo $this->getSkinUrl("images/bullet.jpg"); ?>" alt="" align="absmiddle" /><a href="#">Generic Xenical</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li>
+                                                            <div class="accd-head"><span class="title">Hair Loss</span></div>
+                                                            <ul style="display: none;">
+                                                                <li><img src="<?php echo $this->getSkinUrl("images/bullet.jpg"); ?>" alt="" align="absmiddle" /><a href="#">Generic Propecia</a></li>
+                                                                <li><img src="<?php echo $this->getSkinUrl("images/bullet.jpg"); ?>" alt="" align="absmiddle" /><a href="#">Generic Finpecia</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li>
+                                                            <div class="accd-head"><span class="title">Antiviral</span></div>
+                                                            <ul style="display: none;">
+                                                                <li><img src="<?php echo $this->getSkinUrl("images/bullet.jpg"); ?>" alt="" align="absmiddle" /><a href="#">Generic Valtrex</a></li>
+                                                                <li><img src="<?php echo $this->getSkinUrl("images/bullet.jpg"); ?>" alt="" align="absmiddle" /><a href="#">Aciclovir Tablet</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li>
+                                                            <div class="accd-head"><span class="title">Anti Biotics</span></div>
+                                                            <ul style="display: none;">
+                                                                <li><img src="<?php echo $this->getSkinUrl("images/bullet.jpg"); ?>" alt="" align="absmiddle" /><a href="#">Generic Amoxil</a></li>
+                                                                <li><img src="<?php echo $this->getSkinUrl("images/bullet.jpg"); ?>" alt="" align="absmiddle" /><a href="#">Generic Cipro</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li>
+                                                            <div class="accd-head"><span class="title">Diabetes</span></div>
+                                                            <ul style="display: none;">
+                                                                <li><img src="<?php echo $this->getSkinUrl("images/bullet.jpg"); ?>" alt="" align="absmiddle" /><a href="#">Gliclazide</a></li>
+                                                                <li><img src="<?php echo $this->getSkinUrl("images/bullet.jpg"); ?>" alt="" align="absmiddle" /><a href="#">Glimepiride</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li>
+                                                            <div class="accd-head"><span class="title">Thyroid</span></div>
+                                                            <ul style="display: none;">
+                                                                <li><img src="<?php echo $this->getSkinUrl("images/bullet.jpg"); ?>" alt="" align="absmiddle" /><a href="#">Generic Synthroid</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li>
+                                                            <div class="accd-head"><span class="title">Smart Drugs(Nootropics)</span></div>
+                                                            <ul style="display: none;">
+                                                                <li><img src="<?php echo $this->getSkinUrl("images/bullet.jpg"); ?>" alt="" align="absmiddle" /><a href="http://www.leopharmarx.com/buy-modafinil-online.php">Modafinil</a></li>
+                                                                <li><img src="<?php echo $this->getSkinUrl("images/bullet.jpg"); ?>" alt="" align="absmiddle" /><a href="http://www.leopharmarx.com/buy-provigil-online.php">Provigil</a></li>
+                                                                <li><img src="<?php echo $this->getSkinUrl("images/bullet.jpg"); ?>" alt="" align="absmiddle" /><a href="http://www.leopharmarx.com/buy-modvigil-online.php">Modvigil</a></li>
+                                                                <li><img src="<?php echo $this->getSkinUrl("images/bullet.jpg"); ?>" alt="" align="absmiddle" /><a href="http://www.leopharmarx.com/buy-modalert-online.php">Modalert</a></li>
+                                                                <li><img src="<?php echo $this->getSkinUrl("images/bullet.jpg"); ?>" alt="" align="absmiddle" /><a href="http://www.leopharmarx.com/buy-armodafinil-online.php">Armodafinil</a></li>
+                                                                <li><img src="<?php echo $this->getSkinUrl("images/bullet.jpg"); ?>" alt="" align="absmiddle" /><a href="http://www.leopharmarx.com/buy-memantine-online.php">Admenta(Memantine Hcl)</a></li>
+                                                                <li><img src="<?php echo $this->getSkinUrl("images/bullet.jpg"); ?>" alt="" align="absmiddle" /><a href="http://www.leopharmarx.com/buy-arcalion-online.php">Arcalion(Sulbutiamine)</a></li>
+                                                                <li><img src="<?php echo $this->getSkinUrl("images/bullet.jpg"); ?>" alt="" align="absmiddle" /><a href="http://www.leopharmarx.com/buy-piracetam-online.php">Piracetam</a></li>
+                                                                <li><img src="<?php echo $this->getSkinUrl("images/bullet.jpg"); ?>" alt="" align="absmiddle" /><a href="http://www.leopharmarx.com/buy-waklert-online.php">Waklert</a></li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div style="clear: both;">&nbsp;</div>
+                                </div>
+                            </div>
+                            <div id="side-navi-b">&nbsp;</div>
+                        </div>
+                        <div id="space">&nbsp;</div>
+                        <a href="http://www.leopharmarx.com/benoquin.php"><img src="<?php echo $this->getSkinUrl("images/satisfaction.png"); ?>" alt="" /></a>
+                        <div id="space">&nbsp;</div>
+                        <a href="http://www.leopharmarx.com/generic-retin-a.php"><img src="<?php echo $this->getSkinUrl("images/free-pills.png"); ?>" alt="" /></a>
+                        <div id="space">&nbsp;</div>
+                        <a href="http://www.leopharmarx.com/shipping-policy.php"><img src="<?php echo $this->getSkinUrl("images/free-shipping2.png"); ?>" alt="" /></a>
+                        <div id="space">&nbsp;</div>
+                        <div class="blogarea">
+                            <div class="healthhdr"><img src="<?php echo $this->getSkinUrl("images/healthhdr.gif"); ?>" alt="" border="0" /></div>
+                            <div class="blogborder">
+                                <div class="blogcnt"><strong>Welcome to the territory of Kamasutra with Kamagra pills</strong><br /> <span class="post">- Posted: Nov 19, 2014</span><br /> Sex is the force of life and this is one force that keeps you young and full of valor all the time. It is a complete mechanism in itself and if someth... <a style="text-decoration: none;" href="http://www.leopharmarx.com/blog/welcome-to-the-territory-of-kamasutra-with-kamagra-pills.php" target="_blank"><strong style="color: #525252;">More</strong></a><br /><br /> <strong>Handle double pressure with Waklert pills</strong><br /> <span class="post">- Posted: Nov 18, 2014</span><br /> Technology is improving, but the hassles are increasing because we&rsquo;re subjected to various new age problems that are surfeiting n our lives. Day... <a style="text-decoration: none;" href="http://www.leopharmarx.com/blog/handle-double-pressure-with-waklert-pills.php" target="_blank"><strong style="color: #525252;">More</strong></a><br /><br /> <strong>Try Modafinil and rewrite your life story all again</strong><br /> <span class="post">- Posted: Nov 17, 2014</span><br /> Our life and success is a representation of our acts. It tells us that how we are utilizing our time. It tells us that how we are performing in our li... <a style="text-decoration: none;" href="http://www.leopharmarx.com/blog/try-modafinil-and-rewrite-your-life-story-all-again.php" target="_blank"><strong style="color: #525252;">More</strong></a><br /><br /> <strong>Get rid of your sexual energies with generic Viagra</strong><br /> <span class="post">- Posted: Nov 15, 2014</span><br /> Releasing your sexual energies through a righteous channel can become a big problem for you if you are suffering from erectile dysfunction. If your pe... <a style="text-decoration: none;" href="http://www.leopharmarx.com/blog/get-rid-of-your-sexual-energies-with-generic-viagra.php" target="_blank"><strong style="color: #525252;">More</strong></a><br /><br /></div>
+                            </div>
+                            <div class="healthhdr"><img src="{{skin url=images/blogbtm.gif}}" alt="" border="0" /></div>
+                        </div>
+                    </div>
+                    <div id="content">
+                        <div id="content3" class="home-prds">
+                            <ul>
+                                <?php
+                                $categoryId = 4; // a category id that you can get from admin
+                                $category = Mage::getModel('catalog/category')->load($categoryId);
+
+                                $products = Mage::getModel('catalog/product')
+                                    ->getCollection()
+                                    ->addCategoryFilter($category)
+                                    ->load();
+
+                                //print_r($products);
+                                foreach($products as $product){
+                                    $_product = Mage::getModel('catalog/product')->load($product->getId());
+                                    ?>
+                                    <li>
+                                    <div>
+                                        <h3><?php echo $_product->getName(); ?></h3>
+                                        <div class="prd-img left"><img src="<?php echo $this->getSkinUrl("images/pill.jpg"); ?>" alt="" /></div>
+                                        <div class="prd-price left"><span>Per pills</span> <span class="price">$<?php echo number_format((float)$_product->getPrice(), 2, '.', ''); ?></span></div>
+                                        <div style="clear: both;">&nbsp;</div>
+                                        <p class="prd-desc"><?php echo $_product->getShortDescription(); ?></p>
+                                        <p class="prd-links"><a href="<?php echo $_product->getProductUrl(); ?>"><span>Know more</span><img src="<?php echo $this->getSkinUrl("images/bullet.jpg"); ?>" alt="" /><img class="sb" src="<?php echo $this->getSkinUrl("images/bullet.jpg"); ?>" alt="" /></a> <a href="javascript:void(0);" onclick="setLocation('<?php echo Mage::helper('checkout/cart')->getAddUrl($_product); ?>')"><img src="<?php echo $this->getSkinUrl("images/buy-now.jpg"); ?>" alt="" /></a></p>
+                                    </div>
+                                </li>
+                                <?php
+
+                                }
+                                ?>
+
+
+
+                            </ul>
+                            <div style="clear: both;">&nbsp;</div>
+                        </div>
+                        <div id="space2" style="margin-bottom: 10px;">&nbsp;</div>
+                        <div id="content3">
+                            <h1>Why leopharmarx.com?</h1>
+                            <div id="space-border2">&nbsp;</div>
+                            leopharmarx.com is the genuine online effort to cater people&rsquo;s need for best quality generic medicines. For eliminating illness, it is very important to get best quality of medications. This online drug store is dedicated to provide excellent drugs at affordable prices. All medicines and memory enhancers or Nootropics such as Modalert is available on this pharmacy are of generic nature. This drug store has tie ups with reputed drug manufacturing units which makes modalert (smart drugs) as per the rules set up by FDA and WHO organizations. This makes it very safer to buy drugs from this pharmacy and to use them.<br /><br />leopharmarx.com online drug store has various medicines used in several health ailments. It is an excellent source to <a href="http://www.leopharmarx.com/buy-Modalert-online.php">buy Modalert</a> 200mg tablets. This is the famous drug used in the treatment of sleep disorders. It has also use in the memory enhancement. Smart drugs helps one to stay alert and eliminates excessive sleepiness. Anyone can order modalert (modafinil) as it is available easily at this place at very affordable cost. Before buying any drugs, meet your doctor and get your health issue diagnosed by him.<br /><br />This online drug store has various features and advantages which make it first choice of customers to buy medicines. Modalert (Modafinil) is very popular smart drug amongst people across the globe. This is because of its benefits in the field of improving wakefulness and memory enhancement. This is the best place to get this nootrpic medicine. Apart from it, faster shipping, easy refund policy and excellent privacy protection and loads of offers and deals on placing orders.<br /><br />
+                            <h2>Buy Modalert Online - Medication Quality</h2>
+                            What makes a drug special is its capacity to work on the health ailment. This property depends on the quality of the drug. At leopharmarx.com, all medicines including Modalert go through the strict checking of quality. In fact the manufacturing units with which this pharmacy has tie ups, follows the rule set by the higher organizations such as Food and Drug Administration (FDA) and World Health Organization (WHO). Moreover we have our separate quality analyzing unit that keep conducting quality check periodically to ensure excellent quality so that you can buy Modalert online confidently.<br /><br />It is a myth that generic medications are not as effective as the branded ones. However it is not true. These two are identical in all aspects. The only difference is the cost which is very less for generic meds as compared to branded counterparts. And you can get cheap Modalert (modafinil) easily. But this does not affect the quality of these drugs. These are manufactured by the same companies making branded medicines following the same rules.<br /><br />
+                            <h2>Modalert Nootropics (Smart Drugs) Memory Enhancement Supplements - Medication Facts</h2>
+                            At leopharmarx.com you will get excellent quality drugs and smart drugs. If you are not sure about buying modalert online, then going through the medication facts given below may help you to clear the doubts you have in your mind.
+                            <ul>
+                                <li>Modalert (Smart drugs) are completely safe to use whether you buy them online or from local pharmacy.</li>
+                                <li>At this drug store you will get nootropic drugs in their generic versions. However these are not different from their branded counterparts. These are identical in chemical structure and thus there is no question about the effectiveness of medicine.</li>
+                                <li>It is despite of being a smart drug available at very low cost at this website. This is accessible as generic counterpart which is cheaper than its branded version.</li>
+                                <li>You can buy Modalert nootropic from online pharmacies providing offers and discounts. You can even claim for refund if you receive damaged or wrong parcel because of our system error.</li>
+                            </ul>
+                            <h2>About Modalert 200mg</h2>
+                            All these smart drug with modalert belonging to the nootropic class of medications. It has various uses including treatment of sleep issues such as narcolepsy, shift work disorder and shift work disorder. This is also called as smart drug because students and professional people use this one to increase their cognitive abilities and memory. For this reason most of the people order Modalert from reliable sources. This drug helps in treating various sleep ailments. However only adults are being benefitted by this medicine as it is not made for kids and oldies.<br /><br />Narcolepsy is a sleep issue in which people tend to stay up in the night and sleep in the daytime. This creates extreme laziness in people. This is the same condition in people suffering from shift work disorder. They cannot stay wakeful in their working hours or shift timings. This smart drug helps them to stay alert in the working hours. This works by affecting the brain chemicals. However this is just an assumption and the exact mechanism is still in the dark. Because of its effectiveness, people buy Modalert from online drug stores.<br /><br />Obstructive sleep apnea is a breathing issue in the sleep which creates disturbance in breathing pattern. This is the reason people tend to get sluggish in the daytime. To treat this issue you can buy Modalert 200 mg online too. It helps in treating the ailment. However one must meet the doctor to decide the dosages of the medicine. Start with the low dosage and then gradually increase the doses. You may suffer through some side effects too with this nootropic drug. However this drug has good tolerance value.<br /> <br />Modalert (modafinil) smart drug has some precautionary measures too. Do not have this drug with alcoholic beverages as it may create ill effects in the consumer. Oldies and children are prohibited from using this nootropic medication.<br /><br />
+                            <h2>Safety &amp; Side Effects of <strong>Modalert Online</strong></h2>
+                            Modalert smart drug improves wakefulness in people dealing with various sleep disorders. Like all other medicines, nootropic smart drugs also produce side effects in people. These are of mild and severe side issues. Their development also depends on the amount of drug consumed. In some cases consumption with alcoholic beverages also develops aftermaths.<br /><br />Before you buy Modalert 200mg online, make sure that you are aware about the side issues caused by this smart drug. You may get mild aftermaths such as stomach upset, nausea, vomiting, headache, dizziness etc. These are the gentle side issues. You may or may not required medical treatment toward them off.<br /><br />In case of severe allergic reactions, yellowing or skin and eyes, severe dizziness, blisters in the mouth and nasal cavity, sore throat, fever and chills etc you need to contact your health care provider immediately. Get to know about these serious side issues from your doctor and then buy Modalert smart drug.<br /><br />
+                            <h2>Grab Modalert Online at leopharmarx.com</h2>
+                            Why to buy Modalert from leopharmarx.com? You are likely to ask this question to us. What is so different in our smart drugs that you must get them from us? This question has following answers.
+                            <ul>
+                                <li>leopharmarx.com is a well-known online drug store which is pioneer in catering best quality drugs, generic as well as branded versions.</li>
+                                <li>All nootropic medications available at this online drug store are approved by the Food and Drug Administration (FDA).</li>
+                                <li>You can get cheap Modalert only at leopharmarx.com as this drug store caters generic formulations at very low cost.</li>
+                                <li>This online pharmacy provides various features such as faster shipping of smart drugs.</li>
+                            </ul>
+                            People can buy Modalert online at affordable price. This nootropic medicine is very famous because of its ability to enhance wakefulness in people.</div>
+                        <div id="space">&nbsp;</div>
+                    </div>
+                    <div style="clear: both;">&nbsp;</div>
+                    </div>
+                    </div>
+                    </div>
+                    <div id="main-b">&nbsp;</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <?php echo $this->getChildHtml('footer_before') ?>
+        <?php echo $this->getChildHtml('footer') ?>
+        <?php echo $this->getChildHtml('global_cookie_notice') ?>
+        <?php echo $this->getChildHtml('before_body_end') ?>
+    </div>
+</div>
+<?php echo $this->getAbsoluteFooter() ?>
+</body>
+</html>
+
